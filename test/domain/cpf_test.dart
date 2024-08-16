@@ -31,4 +31,8 @@ main() {
       expect(CPF('111.111.111-11').eNumeroDiferentes(), true);
     });
   });
+
+  group('[e06] CPF – verificar os dígitos verificadores; CE', () {});
+
+  group('CPF – deve ser único', () {});
 }
